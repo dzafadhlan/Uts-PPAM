@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listViewActivity">
+    <activity
+        android:id="@+id/storeActivity"
+        android:name="com.example.pizza_apps.storeActivity"
+        android:label="activity_store"
+        tools:layout="@layout/activity_store" />
+    <activity
+        android:id="@+id/detailedActivity"
+        android:name="com.example.pizza_apps.detailedActivity"
+        android:label="activity_detailed"
+        tools:layout="@layout/activity_detailed" />
+    <activity
+        android:id="@+id/confirmActivity"
+        android:name="com.example.pizza_apps.confirmActivity"
+        android:label="activity_confirm"
+        tools:layout="@layout/activity_confirm" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.pizza_apps.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/listViewActivity"
+        android:name="com.example.pizza_apps.listViewActivity"
+        android:label="activity_list_view"
+        tools:layout="@layout/activity_list_view" />
+</navigation>
